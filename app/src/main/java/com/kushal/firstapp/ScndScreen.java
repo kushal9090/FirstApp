@@ -21,6 +21,7 @@ public class ScndScreen extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intntMain = new Intent(ScndScreen.this , MainActivity.class);
                 startActivity(intntMain);
+                finish();
             }
         });
 
